@@ -1,0 +1,15 @@
+{
+    "L": {"grid_numbers": [140, 234], "keys_to_press": ["a"], "active": false},
+    "R": {"grid_numbers": [146, 239], "keys_to_press": ["d"], "active": false},
+  
+    "Atk": {"grid_numbers": [185, 217], "keys_to_press": ["x"], "active": false},
+
+    "J2": {"grid_numbers": [12, 197], "keys_to_press": ["z"], "active": false},
+
+    "Bind": {"grid_numbers": [315, 346], "keys_to_press": ["Bind"], "active": false},
+    "Down": {"grid_numbers": [311, 342], "keys_to_press": ["s"], "active": false},
+    "Special": {"grid_numbers": [270, 301], "keys_to_press": ["f"], "active": false},
+    "Sprint": {"grid_numbers": [322, 353], "keys_to_press": ["c"], "active": false}
+  
+
+}
