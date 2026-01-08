@@ -1,42 +1,65 @@
 # Silksong Body Motion Controller (aka 3-Player Silksong) 🏃⚔️
 
-This is the code for the motion controller setup used in these Silksong videos!
-- [Can We Beat Silksong Using Our Bodies? (Part 1)](https://youtu.be/TjnGbk6SaU0?si=xk7sMdGfoCOF2a3l)
-- [Can We Beat Silksong Using Our Bodies? (Part 2)](https://youtu.be/D0kf4gtPvl4?si=t_TzcQt9sDoyfPdv)
-- [Can We Beat Silksong Using Our Bodies? (Part 3)](https://youtu.be/RluS-Kx0iQg?si=0uz-IKpB8Az1CQ1f)
+This is the code for the motion controller setup used in my Silksong videos! You can now play Silksong using your body—with friends or all by yourself.
 
-You can now play Silksong using your body, with your friends or even all by yourself!
+### Watch the Series:
+| [ ![Part 1](https://github.com/user-attachments/assets/736fed8e-5ad8-4156-b433-4fb6d7bf5bdc) ](https://youtu.be/TjnGbk6SaU0?si=xk7sMdGfoCOF2a3l) | [ ![Part 2](https://github.com/user-attachments/assets/afcbb220-8a85-46c5-b804-c2ad36980ff5) ](https://youtu.be/D0kf4gtPdv) | [ ![Part 3](https://github.com/user-attachments/assets/94065b55-a463-4533-854b-4e61585f7b97) ](https://youtu.be/RluS-Kx0iQg?si=0uz-IKpB8Az1CQ1f) |
+|:---:|:---:|:---:|
+| [**Part 1: Can We Beat It?**](https://youtu.be/TjnGbk6SaU0?si=xk7sMdGfoCOF2a3l) | [**Part 2: The Chaos Continues**](https://youtu.be/D0kf4gtPdv) | [**Part 3: The Finale**](https://youtu.be/RluS-Kx0iQg?si=0uz-IKpB8Az1CQ1f) |
+
+---
 
 ## 🧠 How It Works
 
-To better understand it  please check out [this tutorial video](link still to be inserted).
+This project uses Computer Vision to detect specific colors (like a green screen cloth) within "trigger zones" on your camera feed. When a color is detected in a specific zone, the script simulates a keypress on your keyboard.
+
+To better understand the logic and see it in action, please check out **[this tutorial video](link-still-to-be-inserted)**.
+
+---
 
 ## ⚙️ Setup Instructions
 
-> Requires Python **3.10+**. [Here's a tutorial on how to do it](https://www.youtube.com/watch?v=YKSpANU8jPE).
+> **Note:** Requires Python **3.10+**. If you need help installing Python, [check out this tutorial](https://www.youtube.com/watch?v=YKSpANU8jPE).
 
-1. **Clone** or download this repository.
-2. Create and activate a [python virtual environment](https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/)
-3. Install the requirements ```pip install -r requirements.txt```
-4. Modify the ```control_settings.json``` to customize the control setup for your needs. Please check [the tutorial video](link still to be inserted). If you really want you can assign more than one key to a rectangle, like so ```['a', 'x']```.
-5. Run ```python grid.py``` to save the new control setup. You can check it out in the ```control_grid.png```.
-6. Run ```python main.py``` to start capturing footage.
-7. Now just start Silksong and ensure that Silksong is the focused window or the controls will not be detected. You can use a separate screen to simultaneously be able to play and watch the controls or you can put the Silksong window in windowed mode.
+1.  **Clone** or download this repository to your machine.
+2.  Create and activate a [Python virtual environment](https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/).
+3.  Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+4.  **Customize Controls:** Open `control_settings.json` to map your zones to specific keys. If you want one zone to trigger multiple keys, you can use a list: `["a", "x"]`. Refer to the [tutorial video](link-still-to-be-inserted) for a deep dive.
+5.  **Generate the Grid:** Run the following command to save your control layout:
+    ```bash
+    python grid.py
+    ```
+    You can verify the setup by checking the generated `control_grid.png`.
+6.  **Start Capturing:** Run the main script to start the motion detection:
+    ```bash
+    python main.py
+    ```
+7.  **Play Silksong:** Ensure the Silksong window is **focused** (active), or the controls will not be detected. 
+    * *Pro Tip:* Use a second monitor to watch your control feed while you play, or run Silksong in **Windowed Mode**.
+
+---
 
 ## 💡 Essential Items
 
-For this to work well you will need:
-1. A laptop to run the scripts and process the incoming footage in real-time. Don't worry, the script uses basic Computer Vision algorithms so your machine should handle it well!
-2. A camera connected to your laptop. In the videos I was using a Logitech camera but any camera should suffice. It just needs to be pointed at where you will be playing.
-3. A green screen cloth. I bought mine on amazon for video editing purposes. That color is the best because it is not easily confused with skin or clothes. In theory you can modify ```settings.json``` file to adapt for different color ranges. It might just not work as well.
-4. A well illuminated space. Yes, to move freely! Specially if you're playing with others.
+For the best experience, you will need:
+
+1.  **A Laptop/PC:** To run the scripts and process footage in real-time. The script uses basic CV algorithms, so most modern machines handle it easily!
+2.  **A Camera:** A standard webcam (I used a Logitech) pointed at your play area.
+3.  **Green Screen Cloth:** I used a bright green cloth from Amazon. This color is easiest for the computer to distinguish from skin or clothing.
+    * *Note:* You can modify `settings.json` to use other colors, but green is the most reliable.
+4.  **Good Lighting:** A well-lit space is key for the camera to track your movements accurately without "ghost" inputs.
+
+---
 
 ## 🌍 Share it with the world!
 
-I am really curious about watching other people playing Silksong this way! Feel free to [join my Discord Community](https://discord.gg/hSva6VG9H8) and share videos of you playing it on the #general chat. I might even make a video featuring other people playing Silksong this way! 
+I’m really curious to see how you use this! Feel free to [join my Discord Community](https://discord.gg/hSva6VG9H8) and share your clips in the `#general` chat. I might even feature your videos in a future project!
 
 ## Support My Channel 🚀
 
-I make weird and wonderful projects at the crossroads of AI, hardware, and chaotic fun.
+I make weird and wonderful projects at the crossroads of AI, hardware, and chaotic fun. 
 
-If you found this helpful, enjoyed the Silksong videos and are ready for more madness please consider [subscribing to my YouTube channel](https://www.youtube.com/channel/UCqnIZIGyH6NgJ8OkJAvZyKg?sub_confirmation=1). Your support helps me keep doing this stuff!
+If you enjoyed this project, please consider **[subscribing to my YouTube channel](https://www.youtube.com/channel/UCqnIZIGyH6NgJ8OkJAvZyKg?sub_confirmation=1)**. Your support keeps the madness going!
