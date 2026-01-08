@@ -5,7 +5,7 @@ This is the code for the motion controller setup used in my Silksong videos! You
 ### Watch the Series:
 | [ ![Part 1](https://github.com/user-attachments/assets/736fed8e-5ad8-4156-b433-4fb6d7bf5bdc) ](https://youtu.be/TjnGbk6SaU0?si=xk7sMdGfoCOF2a3l) | [ ![Part 2](https://github.com/user-attachments/assets/afcbb220-8a85-46c5-b804-c2ad36980ff5) ](https://youtu.be/D0kf4gtPdv) | [ ![Part 3](https://github.com/user-attachments/assets/94065b55-a463-4533-854b-4e61585f7b97) ](https://youtu.be/RluS-Kx0iQg?si=0uz-IKpB8Az1CQ1f) |
 |:---:|:---:|:---:|
-| [**Part 1: Can We Beat It?**](https://youtu.be/TjnGbk6SaU0?si=xk7sMdGfoCOF2a3l) | [**Part 2: The Chaos Continues**](https://youtu.be/D0kf4gtPdv) | [**Part 3: The Finale**](https://youtu.be/RluS-Kx0iQg?si=0uz-IKpB8Az1CQ1f) |
+| [**Part 1: Moss Mother**](https://youtu.be/TjnGbk6SaU0?si=xk7sMdGfoCOF2a3l) | [**Part 2: Bell Beast**](https://youtu.be/D0kf4gtPdv) | [**Part 3: Deep Docks Lace**](https://youtu.be/RluS-Kx0iQg?si=0uz-IKpB8Az1CQ1f) |
 
 ---
 
@@ -13,7 +13,7 @@ This is the code for the motion controller setup used in my Silksong videos! You
 
 This project uses Computer Vision to detect specific colors (like a green screen cloth) within "trigger zones" on your camera feed. When a color is detected in a specific zone, the script simulates a keypress on your keyboard.
 
-To better understand the logic and see it in action, please check out **[this tutorial video](link-still-to-be-inserted)**.
+To better understand the logic please check out **[this tutorial video](link-still-to-be-inserted)**.
 
 ---
 
@@ -50,16 +50,16 @@ For the best experience, you will need:
 2.  **A Camera:** A standard webcam (I used a Logitech) pointed at your play area.
 3.  **Green Screen Cloth:** I used a bright green cloth from Amazon. This color is easiest for the computer to distinguish from skin or clothing.
     * *Note:* You can modify `settings.json` to use other colors, but green is the most reliable.
-4.  **Good Lighting:** A well-lit space is key for the camera to track your movements accurately without "ghost" inputs.
+4.  **Good Lighting:** A well-lit space is key for the camera to track your movements well and clearly distinguish colors.
 
 ---
 
 ## 🌍 Share it with the world!
 
-I’m really curious to see how you use this! Feel free to [join my Discord Community](https://discord.gg/hSva6VG9H8) and share your clips in the `#general` chat. I might even feature your videos in a future project!
+I’m really curious to see how you use this! Feel free to [join my Discord Community](https://discord.gg/hSva6VG9H8) and share your gameplay clips in the `#general` chat. I might even feature your videos in a future project!
 
 ## Support My Channel 🚀
 
 I make weird and wonderful projects at the crossroads of AI, hardware, and chaotic fun. 
 
-If you enjoyed this project, please consider **[subscribing to my YouTube channel](https://www.youtube.com/channel/UCqnIZIGyH6NgJ8OkJAvZyKg?sub_confirmation=1)**. Your support keeps the madness going!
+If you enjoyed this project, please consider **[subscribing to my YouTube channel](https://www.youtube.com/channel/UCqnIZIGyH6NgJ8OkJAvZyKg?sub_confirmation=1)**. Your support helps me keep doing this stuff!
