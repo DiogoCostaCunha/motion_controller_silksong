@@ -3,9 +3,11 @@
 YES! You can now play Silksong using your body, with friends or all by yourself.
 
 ### Watch the Series:
-| [ ![Part 1](https://github.com/user-attachments/assets/736fed8e-5ad8-4156-b433-4fb6d7bf5bdc) ](https://youtu.be/TjnGbk6SaU0?si=xk7sMdGfoCOF2a3l) | [ ![Part 2](https://github.com/user-attachments/assets/afcbb220-8a85-46c5-b804-c2ad36980ff5) ](https://youtu.be/D0kf4gtPdv) | [ ![Part 3](https://github.com/user-attachments/assets/94065b55-a463-4533-854b-4e61585f7b97) ](https://youtu.be/RluS-Kx0iQg?si=0uz-IKpB8Az1CQ1f) |
+| [ ![Part 1](https://github.com/user-attachments/assets/736fed8e-5ad8-4156-b433-4fb6d7bf5bdc) ](https://youtu.be/TjnGbk6SaU0?si=xk7sMdGfoCOF2a3l) | [ ![Part 2](https://github.com/user-attachments/assets/afcbb220-8a85-46c5-b804-c2ad36980ff5) ](https://youtu.be/D0kf4gtPvl4) | [ ![Part 3](https://github.com/user-attachments/assets/94065b55-a463-4533-854b-4e61585f7b97) ](https://youtu.be/RluS-Kx0iQg?si=0uz-IKpB8Az1CQ1f) |
 |:---:|:---:|:---:|
 | [**Part 1: Moss Mother**](https://youtu.be/TjnGbk6SaU0?si=xk7sMdGfoCOF2a3l) | [**Part 2: Bell Beast**](https://youtu.be/D0kf4gtPdv) | [**Part 3: Deep Docks Lace**](https://youtu.be/RluS-Kx0iQg?si=0uz-IKpB8Az1CQ1f) |
+
+
 
 ---
 
