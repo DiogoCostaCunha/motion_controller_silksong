@@ -15,7 +15,7 @@ YES! You can now play Silksong using your body, with friends or all by yourself.
 
 This project uses Computer Vision to detect specific colors (like a green screen cloth) within "trigger zones" on your camera feed. When a color is detected in a specific zone, the script simulates a keypress on your keyboard.
 
-To better understand the logic please check out **[this tutorial video](link-still-to-be-inserted)**.
+To better understand the logic please check out **[this tutorial video](https://youtu.be/H8syhR0M-0I)**.
 
 ---
 
@@ -29,7 +29,7 @@ To better understand the logic please check out **[this tutorial video](link-sti
     ```bash
     pip install -r requirements.txt
     ```
-4.  **Customize Controls:** Open `control_settings.json` to map your zones to specific keys. If you want one zone to trigger multiple keys, you can use a list: `["a", "x"]`. Refer to the [tutorial video](link-still-to-be-inserted) for a deep dive.
+4.  **Customize Controls:** Open `control_settings.json` to map your zones to specific keys. If you want one zone to trigger multiple keys, you can use a list: `["a", "x"]`. Refer to the [tutorial video](https://youtu.be/H8syhR0M-0I) for a deep dive.
 5.  **Generate the Grid:** Run the following command to save your control layout:
     ```bash
     python grid.py
