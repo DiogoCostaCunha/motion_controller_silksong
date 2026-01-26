@@ -42,6 +42,36 @@ To better understand the logic please check out **[this tutorial video](https://
 7.  **Play Silksong:** Ensure the Silksong window is **focused** (active), or the controls will not be detected. 
     * *Pro Tip:* Use a second monitor to watch your control feed while you play, or run Silksong in **Windowed Mode**.
 
+## 🎨 Color Detection Configuration
+
+To change the color used for pixel detection, modify the `LOWER_COLOR_BOUND` and `UPPER_COLOR_BOUND` values in your `settings.json` file. 
+
+### Hue Range Reference
+
+Refer to the table below to find the correct Hue values for your target color:
+
+| Color | Range |
+| :--- | :--- |
+| 🟠 **Orange** | 11 – 25 |
+| 🟡 **Yellow** | 26 – 34 |
+| 🟢 **Green** | 35 – 85 |
+| 💎 **Cyan** | 86 – 100 |
+| 🔵 **Blue** | 101 – 130 |
+| 🟣 **Purple** | 131 – 170 |
+
+### Example: Setting to Orange
+
+To target orange pixels, update your `settings.json` using the hue range (11 to 25):
+
+```json
+{
+  "LOWER_COLOR_BOUND": [11, 80, 80],
+  "UPPER_COLOR_BOUND": [25, 255, 255]
+}
+```
+
+These values represent the HSV color space. If your detection is inconsistent, try slightly expanding the Saturation and Value (the second and third numbers) to better handle different lighting.
+
 ---
 
 ## 💡 Essential Items
